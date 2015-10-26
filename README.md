@@ -1,2 +1,4 @@
-# backand-baas-app
-Demonstrate Backand BAAS capabilities
+Backand BAAS App
+================
+
+A demo app to show the use in a mobile app of Backand BAAS capabilities.
