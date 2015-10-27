@@ -6,3 +6,6 @@ platforms/
 plugins/
 www/lib
 www/css
+
+backand-baas-app.sublime.project
+backand-baas-app.sublime.workspace
