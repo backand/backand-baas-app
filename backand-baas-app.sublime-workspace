@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"st",
+				"stringify"
+			],
+			[
+				"get",
+				"getPlatform"
+			],
+			[
+				"cor",
+				"cordovaDevice"
+			],
+			[
 				"up",
 				"upDelta"
 			],
@@ -142,10 +154,6 @@
 			[
 				"active",
 				"activeAuction"
-			],
-			[
-				"get",
-				"getAuctionId"
 			],
 			[
 				"auct",
@@ -463,6 +471,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "www/js/app.js",
+			"settings":
+			{
+				"buffer_size": 4858,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/index.html",
+			"settings":
+			{
+				"buffer_size": 923,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bower.json",
+			"settings":
+			{
+				"buffer_size": 168,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -505,10 +537,15 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/kornatzky/Documents/Work/backand-baas-app"
+		"/Users/kornatzky/Documents/Work/backand-baas-app",
+		"/Users/kornatzky/Documents/Work/backand-baas-app/www",
+		"/Users/kornatzky/Documents/Work/backand-baas-app/www/lib",
+		"/Users/kornatzky/Documents/Work/backand-baas-app/www/lib/ngCordova",
+		"/Users/kornatzky/Documents/Work/backand-baas-app/www/lib/ngCordova/dist"
 	],
 	"file_history":
 	[
+		"/Users/kornatzky/Documents/Work/backand-baas-app/.gitignore",
 		"/Users/kornatzky/Documents/Work/profapp/.gitignore",
 		"/Users/kornatzky/Documents/Work/profapp/readme.md",
 		"/Users/kornatzky/Documents/Work/profapp/resources/assets/sass/app.scss",
@@ -806,8 +843,106 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "www/js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4858,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2583,
+								2583
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 1.0,
+						"translation.y": 457.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "www/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 923,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								595,
+								595
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "bower.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 168,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								160,
+								160
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -867,6 +1002,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"index",
+				"www/index.html"
+			],
+			[
+				"app",
+				"www/js/app.js"
+			],
 			[
 				"pac",
 				"package.json"
@@ -1370,10 +1513,6 @@
 			[
 				"front.",
 				"bidon/public/css/front.css"
-			],
-			[
-				"front.s",
-				"bidon/resources/assets/sass/front.scss"
 			]
 		],
 		"width": 0.0

@@ -53,7 +53,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'ngCordova'])
           switch(notification.event) {
             case 'registered':
               if (notification.regid.length > 0 ) {
-                // alert('registration ID = ' + notification.regid);
+                console.log('registration ID = ' + notification.regid);
                 $cordovaDialogs.alert('Registration ID = '  + notification.regid, 'Android Push Id', 'OK')
                 .then(function() {
                   // callback success
@@ -63,7 +63,8 @@ angular.module('starter', ['ionic', 'starter.controllers', 'ngCordova'])
 
             case 'message':
               // this is the actual push notification. its format depends on the data model from the push server
-              // alert('message = ' + notification.message + ' msgCount = ' + notification.msgcnt);
+              console.log('message = ' + notification.message + ' msgCount = ' + notification.msgcnt);
+              console.log('notification = ' + JSON.stringify(notification));
               $cordovaDialogs.alert('message = ' + notification.message + ' msgCount = ' + notification.msgcnt, 'Android Push Message', 'OK')
               .then(function() {
                   // callback success
